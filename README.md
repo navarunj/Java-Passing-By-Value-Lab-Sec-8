@@ -116,3 +116,13 @@ After passing a String \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 2.2.3 When you run the test, the output in the Console view should look like the
 following. Did this match your expectations?  
+
+```java
+Before passing an object 1/20/2008
+After passing an object 1/20/2009
+Before passing a primitive 2009
+After passing a primitive 2009
+Before passing a String 1/20/2009
+New date string: 1/20/2012
+After passing a String 1/20/2009
+```
