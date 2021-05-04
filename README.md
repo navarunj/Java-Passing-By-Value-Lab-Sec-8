@@ -65,7 +65,7 @@ import com.acme.utils.MyDate;
 
 ## Step 2: Test the pass methods
 
-2.1 Add code to the main( ) method to test each of the “pass” methods.  
+### 2.1 Add code to the main( ) method to test each of the “pass” methods.  
 
 2.1.1 In the main( ) method, first create a MyDate object.
 ```java
@@ -79,3 +79,24 @@ System.out.println("Before passing an object " + date);
 passObject(date);
 System.out.println("After passing an object " + date);
 ```
+
+2.1.3 Do the same work to write out the date’s year and call on the passPrimitive() method.
+
+```java
+System.out.println("Before passing a primitive " + date.year);
+passPrimitive(date.year);
+System.out.println("After passing a primitive " + date.year);
+```
+
+2.1.4 Lastly, create a String reference from toString( ) of the MyDate object. Use
+this String object to call on the passString( ) method. Once again print out the String
+value before and after the call to the method.
+
+```java
+String x = date.toString();
+System.out.println("Before passing a String " + x);
+passString(x);
+System.out.println("After passing a String " + x);
+```
+
+### 2.2 Run the PassByExperiment class.
