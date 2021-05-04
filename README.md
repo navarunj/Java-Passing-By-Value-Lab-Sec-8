@@ -13,6 +13,8 @@ select New > Java Class.
 1.2 In the New Java Class window, enter
 PassByExperiment as the name of the class, and click the Finish button.
 
+<img src="./src/main/resources/passByExperiment.png" width="400px">
+
 1.3 Create a public static void main( ) method by typing main and pressing Enter.
 
-<img src="./src/main/resources/passByExperiment.png" width="400px">
+
